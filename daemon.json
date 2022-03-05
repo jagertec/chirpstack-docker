@@ -1,0 +1,8 @@
+{
+    "log-driver": "json-file",
+    "log-opts": {
+        "max-size": "20m",  # Max size of the log files. = 20MB  
+       "max-file": "3"     # The maximum number of log files that can be present.
+    },
+    "insecure-registries":["192.168.1.61:5000","192.168.1.30:5000"]
+}
